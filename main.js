@@ -90,7 +90,7 @@ async function moveData(sourceEsHost, destEsHost, indexName, query, cursorFile) 
         fs.appendFileSync(cursorFile, `${scrollId}\n`);
     }
 
-    console.log(`Data copied from ${sourceEsHost}/${indexName} на ${destEsHost}/${indexName}. Scroll ID saved to ${cursorFile}.`);
+    console.log(`Data copied from ${sourceEsHost}/${indexName} to ${destEsHost}/${indexName}. Scroll ID saved to ${cursorFile}.`);
 }
 
 console.log("Initializing");

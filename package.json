@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.0.0",
+    "elasticdump": "^6.113.0"
+  }
+}
